@@ -1,0 +1,42 @@
+
+.wrapper {
+  display: inline-flex;
+  background: #242933;
+  height: 150;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  padding: 20px 15px;
+  margin-top: 10px;
+}
+.wrapper .option {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0 10px;
+  border: 2px solid #292929;
+  transition: all 0.5s ease;
+  margin: 0 10px;
+}
+input[type="radio"] {
+  display: none;
+}
+input#Live:checked ~ .option-1,
+input#Onsite:checked ~ .option-2 {
+  background: #292929;
+  border-color: #ffffff;
+}
+
+input#Live:checked ~ .option-1 span,
+input#Onsite:checked ~ .option-2 span {
+  color: #fff;
+}
+.wrapper .option span {
+  font-size: 20px;
+}

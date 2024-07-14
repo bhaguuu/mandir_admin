@@ -1,0 +1,2 @@
+.pagination{align-items:center;display:flex;gap:20px;justify-content:center;margin-top:50px}.pagination .page-number{background:#fff;border-radius:10px;color:#00a8ff;cursor:pointer;font-size:16px;font-weight:600;padding:10px 20px;transition:all .5s ease}.pagination .active,.pagination .page-number:hover{background:#00a8ff;color:#fff}.pagination .active:hover{background:#fff;color:#00a8ff}.searchInput{outline:0}
+/*# sourceMappingURL=227.7711c9f9.chunk.css.map*/

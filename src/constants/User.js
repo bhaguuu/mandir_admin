@@ -1,0 +1,3 @@
+export const USER_CONFIG={
+    TOKEN_DETAIL:"TOKEN_DETAIL"
+}
