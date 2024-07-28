@@ -6,10 +6,11 @@ import reportWebVitals from './reportWebVitals';
 import store from './app/store'
 import { Provider } from 'react-redux'
 import SuspenseContent from './containers/SuspenseContent';
-
+import DocComponents from './features/documentation/DocComponents';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
+
     <Suspense fallback={<SuspenseContent />}>
         <Provider store={store}>
             <App />
